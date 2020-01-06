@@ -83,7 +83,7 @@ def password_eval(password, password_length_good, UpperLength, digits, matchedPa
     print(judge)
     return judge
 
-def file_len(fname):             #94-98 stackflow
+def file_len(fname):             #86-90 stackflow
     with open(fname) as f:
         for i,l in enumerate(f):
             pass
